@@ -1,5 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
-    font-family: Arial, sans-serif;
+    font-family:Arial, sans-serif;
+    background:#f5f7fa;
+}
+
+.hero{
     text-align:center;
-    padding:50px;
+    padding:80px 20px;
+}
+
+.profile{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+h2{
+    color:#444;
+    margin-bottom:15px;
+}
+
+p{
+    color:#666;
+    margin-bottom:25px;
+    font-size:1.1rem;
+}
+
+.buttons a{
+    text-decoration:none;
+    padding:12px 20px;
+    margin:5px;
+    border-radius:6px;
+    background:#24292e;
+    color:white;
+    display:inline-block;
 }
