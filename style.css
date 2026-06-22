@@ -158,6 +158,14 @@ p{
 .project-card a:hover{
     background:#0366d6;
 }
+.project-image{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:8px;
+    margin-bottom:15px;
+}
+
 /* Certifications */
 
 .certifications{
