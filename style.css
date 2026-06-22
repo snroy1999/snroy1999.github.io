@@ -158,7 +158,12 @@ p{
 .project-card a:hover{
     background:#0366d6;
 }
-
+.tech-stack{
+    font-size:0.9rem;
+    font-weight:600;
+    color:#24292e;
+    margin-bottom:20px;
+}
 /* Certifications */
 
 .certifications{
