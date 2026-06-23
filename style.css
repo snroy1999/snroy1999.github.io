@@ -256,6 +256,22 @@ p{
     margin-bottom:10px;
 }
 
+.cert-btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:8px 14px;
+    background:#24292e;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    font-size:0.85rem;
+    transition:0.3s;
+}
+
+.cert-btn:hover{
+    background:#0366d6;
+}
+
 /* Experience Section */
 
 .experience{
