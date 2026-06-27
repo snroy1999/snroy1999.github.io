@@ -258,6 +258,130 @@ a{text-decoration:none;color:inherit}
 }
 
 /* ---------------- SECTIONS ---------------- */
+/* ---------- ABOUT REDESIGN ---------- */
+
+.about{
+    max-width:1200px;
+    margin:auto;
+    padding:120px 7%;
+}
+
+.section-header{
+    max-width:760px;
+    margin:auto;
+    text-align:center;
+}
+
+.section-label{
+    letter-spacing:4px;
+    text-transform:uppercase;
+    color:var(--primary);
+    font-size:.8rem;
+    font-weight:700;
+    margin-bottom:18px;
+}
+
+.section-header h2{
+
+    font-size:3rem;
+
+    line-height:1.2;
+
+    margin-bottom:22px;
+
+    color:var(--text);
+
+}
+
+.section-description{
+
+    font-size:1.15rem;
+
+    color:var(--muted);
+
+    line-height:1.8;
+
+}
+
+.stats-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+    margin-top:70px;
+
+}
+
+.stat-card{
+
+    background:white;
+
+    border:1px solid var(--border);
+
+    border-radius:22px;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:var(--shadow);
+
+    transition:.3s;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.stat-card h3{
+
+    font-size:2.7rem;
+
+    color:var(--primary);
+
+    margin-bottom:12px;
+
+}
+
+.stat-card p{
+
+    color:var(--muted);
+
+    font-size:1rem;
+
+}
+
+@media(max-width:900px){
+
+.stats-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:640px){
+
+.stats-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.section-header h2{
+
+font-size:2.2rem;
+
+}
+
+}
 
 .about,
 .skills,
