@@ -259,7 +259,6 @@ a{text-decoration:none;color:inherit}
 
 /* ---------------- SECTIONS ---------------- */
 /* ---------- ABOUT REDESIGN ---------- */
-
 .about{
     max-width:1200px;
     margin:auto;
@@ -282,6 +281,13 @@ a{text-decoration:none;color:inherit}
 }
 
 .section-header h2{
+    font-size:3rem;
+    line-height:1.2;
+    margin-bottom:22px;
+    color:var(--text);
+}
+
+.section-header h2{
 
     font-size:3rem;
 
@@ -295,11 +301,15 @@ a{text-decoration:none;color:inherit}
 
 .section-description{
 
-    font-size:1.15rem;
+    font-size:1.25rem;
+
+    line-height:1.9;
 
     color:var(--muted);
 
-    line-height:1.8;
+    max-width:850px;
+
+    margin:0 auto;
 
 }
 
@@ -382,8 +392,6 @@ font-size:2.2rem;
 }
 
 }
-
-.about,
 .skills,
 .projects,
 .certifications,
@@ -393,10 +401,6 @@ font-size:2.2rem;
     text-align:center;
 }
 
-.about{
-    max-width:900px;
-    margin:auto;
-}
 
 .skill-container,
 .project-container,
