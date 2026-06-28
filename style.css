@@ -262,7 +262,7 @@ a{text-decoration:none;color:inherit}
 .about{
     max-width:1200px;
     margin:auto;
-    padding:120px 7%;
+    padding:90px 7% 50px;
 }
 
 .section-header{
@@ -392,6 +392,10 @@ font-size:2.2rem;
 }
 
 }
+.skills{
+    padding:20px 7% 90px;
+}
+
 .skills,
 .projects,
 .certifications,
