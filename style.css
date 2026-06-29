@@ -470,56 +470,6 @@ font-size:2.2rem;
 
 }
 
-.skills-grid{
-
-    margin-top:70px;
-
-    display:grid;
-
-    grid-template-columns:repeat(2,1fr);
-
-    gap:45px 80px;
-
-}
-
-.skill-group h3{
-
-    font-size:1.45rem;
-
-    margin-bottom:22px;
-
-    color:var(--text);
-
-}
-
-.skill-tags span{
-
-    padding:12px 22px;
-
-    border:1px solid var(--border);
-
-    border-radius:999px;
-
-    background:white;
-
-    font-size:.95rem;
-
-    color:var(--muted);
-
-    transition:.3s;
-
-}
-
-.skill-tags span:hover{
-
-    background:var(--primary);
-
-    color:white;
-
-    transform:translateY(-2px);
-
-}
-
 }
 .skills{
     padding:20px 7% 90px;
