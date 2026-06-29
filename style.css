@@ -482,14 +482,6 @@ font-size:2.2rem;
 
 }
 
-.skill-group{
-
-    padding-bottom:28px;
-
-    border-bottom:1px solid var(--border);
-
-}
-
 .skill-group h3{
 
     font-size:1.45rem;
@@ -497,16 +489,6 @@ font-size:2.2rem;
     margin-bottom:22px;
 
     color:var(--text);
-
-}
-
-.skill-tags{
-
-    display:flex;
-
-    flex-wrap:wrap;
-
-    gap:14px;
 
 }
 
@@ -535,12 +517,6 @@ font-size:2.2rem;
     color:white;
 
     transform:translateY(-2px);
-
-}
-
-.full-width{
-
-    grid-column:1 / -1;
 
 }
 
@@ -817,9 +793,5 @@ hero-subtitle{
     box-shadow:0 0 0 5px rgba(34,197,94,.15);
 
 }
-.skills-grid{
 
-    grid-template-columns:1fr;
-
-}
 }
