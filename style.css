@@ -472,14 +472,18 @@ font-size:2.2rem;
     text-align:center;
 }
 
+.skill-container{
 
-.skill-container,
-.project-container,
-.cert-container,
-.experience-container{
-    margin-top:45px;
+    max-width:1200px;
+
+    margin:55px auto 0;
+
     display:grid;
-    gap:24px;
+
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+
+    gap:28px;
+
 }
 
 .skill-container{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
@@ -487,7 +491,48 @@ font-size:2.2rem;
 .cert-container{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
 .experience-container{grid-template-columns:repeat(auto-fit,minmax(420px,1fr))}
 
-.skill-card,
+.skill-card{
+
+    background:#fff;
+
+    padding:32px;
+
+    border-radius:24px;
+
+    border:1px solid var(--border);
+
+    box-shadow:0 12px 30px rgba(0,0,0,.06);
+
+    transition:.35s;
+
+}
+
+.skill-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 22px 50px rgba(0,0,0,.12);
+
+}
+.skill-card h3{
+
+    font-size:1.4rem;
+
+    margin-bottom:18px;
+
+    color:var(--text);
+
+}
+.skill-card p{
+
+    color:var(--muted);
+
+    line-height:1.9;
+
+    font-size:1rem;
+
+}
+
 .project-card,
 .cert-card,
 .experience-card{
@@ -499,7 +544,6 @@ font-size:2.2rem;
     transition:.3s;
 }
 
-.skill-card:hover,
 .project-card:hover,
 .cert-card:hover,
 .experience-card:hover{
