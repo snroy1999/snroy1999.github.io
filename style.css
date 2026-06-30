@@ -503,7 +503,7 @@ font-size:2.2rem;
 .cert-container{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
 .experience-container{grid-template-columns:repeat(auto-fit,minmax(420px,1fr))}
 
-/* .skill-card{
+.skill-card{
 
     background:#fff;
 
@@ -543,7 +543,7 @@ font-size:2.2rem;
 
     font-size:1rem;
 
-} */
+} 
 
 .project-card,
 .cert-card,
