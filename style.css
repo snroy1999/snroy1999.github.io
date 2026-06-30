@@ -459,12 +459,29 @@ font-size:2.2rem;
 }
 
 /* ---------- SKILLS REDESIGN ---------- */
-
 .skills{
-    max-width:1200px;
+    max-width:1300px;
     margin:auto;
-    padding:90px 7% 40px;
+}
+
+.skills h2{
     text-align:center;
+    font-size:3rem;
+    margin-top:10px;
+}
+
+.skills-subtitle{
+    max-width:760px;
+    margin:20px auto 55px;
+    text-align:center;
+    color:var(--muted);
+    font-size:1.1rem;
+    line-height:1.8;
+}
+
+.skills .section-label{
+    text-align:center;
+    display:block;
 }
 
 }
@@ -511,13 +528,13 @@ font-size:2.2rem;
 
 .skill-card h3{
     font-size:1.45rem;
-    margin-bottom:18px;
+    margin-bottom:22px;
     color:#111827;
 }
 
 .skill-card p{
     color:#6b7280;
-    line-height:1.8;
+    line-height:2;
     font-size:1rem;
 }
 
@@ -530,7 +547,7 @@ font-size:2.2rem;
     content:"";
     position:absolute;
     top:0;
-    left:0;
+    left:14px;
     width:5px;
     height:100%;
     background:var(--primary);
