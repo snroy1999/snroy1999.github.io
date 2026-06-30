@@ -461,21 +461,16 @@ font-size:2.2rem;
 /* ---------- SKILLS REDESIGN ---------- */
 
 .skills{
-
     max-width:1200px;
-
     margin:auto;
-
-    padding:120px 7%;
-
+    padding:90px 7% 40px;
+    text-align:center;
 }
 
 }
-.skills{
-    padding:20px 7% 90px;
-}
 
-.skills,
+
+/* .skills, */
 .projects,
 .certifications,
 .experience,
@@ -483,25 +478,18 @@ font-size:2.2rem;
     padding:90px 7%;
     text-align:center;
 }
-
-/* .skill-container{
-
+.skill-container{
     max-width:1200px;
-
     margin:55px auto 0;
-
     display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:24px;
+}
 
-    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
-
-    gap:28px;
-
-} */
-
-.skill-container{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))} */
-.project-container{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
-.cert-container{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
-.experience-container{grid-template-columns:repeat(auto-fit,minmax(420px,1fr))}
+/* .skill-container{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))} 
+/* .project-container{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))} */
+/* .cert-container{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))} */
+/* .experience-container{grid-template-columns:repeat(auto-fit,minmax(420px,1fr))} */ */
 
 .skill-card{
 
@@ -544,6 +532,25 @@ font-size:2.2rem;
     font-size:1rem;
 
 } 
+
+.project-container{
+    margin-top:45px;
+    display:grid;
+    gap:24px;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+}
+.cert-container{
+    margin-top:45px;
+    display:grid;
+    gap:24px;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+}
+.experience-container{
+    margin-top:45px;
+    display:grid;
+    gap:24px;
+    grid-template-columns:repeat(auto-fit,minmax(420px,1fr));
+}
 
 .project-card,
 .cert-card,
