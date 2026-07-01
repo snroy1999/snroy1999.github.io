@@ -495,6 +495,7 @@ font-size:2.2rem;
     grid-template-columns:repeat(5,1fr);
     gap:28px;
     margin-top:55px;
+    grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
 }
 /* .skill-container{
     display:grid;
@@ -553,7 +554,7 @@ font-size:2.2rem;
 .project-container{
     margin-top:45px;
     display:grid;
-    gap:24px;
+    gap:18px;
     grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
 }
 .cert-container{
