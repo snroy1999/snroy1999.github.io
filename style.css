@@ -493,7 +493,7 @@ font-size:2.2rem;
 .skill-container{
     display:grid;
     grid-template-columns:repeat(5,1fr);
-    gap:18px;
+    gap:20px;
     margin-top:55px;
 }
 /* .skill-container{
