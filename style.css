@@ -249,9 +249,15 @@ a{text-decoration:none;color:inherit}
 }
 /* ---------------- SECTIONS ---------------- */
 /* ---------- SKILLS REDESIGN ---------- */
-.skills{
+/* .skills{
     max-width:1300px;
     margin:auto;
+} */
+
+.skills{
+    max-width:1300px;
+    margin:0 auto;
+    padding:90px 40px;
 }
 
 .skills h2{
@@ -483,13 +489,20 @@ font-size:2.2rem;
     padding:90px 7%;
     text-align:center;
 }
+
 .skill-container{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:28px;
+    margin-top:55px;
+}
+/* .skill-container{
     display:grid;
     padding:0 40px;
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
     gap:28px;
     margin-top:55px;
-}
+} */
 
 .skill-card{
     background:#fff;
