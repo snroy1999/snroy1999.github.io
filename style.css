@@ -90,9 +90,32 @@ a{text-decoration:none;color:inherit}
     align-items:center;
 }
 
-.hero-text h1{
-    margin:0;
+/*New Hero title*/
+.hero-title{
+    font-size:6rem;
+    line-height:.9;
+    letter-spacing:-4px;
+    margin:0 0 30px;
 }
+
+.hero-black{
+    display:block;
+    font-family:"Cormorant Garamond", Georgia, serif;
+    font-weight:700;
+    color:#111827;
+}
+
+.hero-orange{
+    display:block;
+    font-family:"Cormorant Garamond", Georgia, serif;
+    font-style:italic;
+    font-weight:600;
+    color:var(--primary);
+}
+
+/* .hero-text h1{
+    margin:0;
+} */
 
 .hero-text h2{
     font-size:1.35rem;
