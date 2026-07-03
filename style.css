@@ -248,7 +248,18 @@ a{text-decoration:none;color:inherit}
     display:flex;
     justify-content:center;
 }
+
 .image-card{
+    background:#ffffff;
+    padding:16px;
+    border-radius:28px;
+    border:1px solid rgba(255,255,255,.7);
+    box-shadow:
+        0 20px 45px rgba(0,0,0,.08),
+        0 8px 18px rgba(249,115,22,.08);
+    transition:.35s;
+}
+/* .image-card{
 
     background:white;
 
@@ -260,7 +271,7 @@ a{text-decoration:none;color:inherit}
 
     0 30px 80px rgba(0,0,0,.08);
 
-    transition:.35s;
+    transition:.35s; */
 
 }
 .image-card img{
@@ -283,11 +294,8 @@ a{text-decoration:none;color:inherit}
 }
 
 .profile{
-    width:340px;
-    aspect-ratio:1;
-    object-fit:cover;
-    border-radius:22px;
-}
+     object-fit:cover;
+   }
 /* ---------------- SECTIONS ---------------- */
 /* ---------- SKILLS REDESIGN ---------- */
 /* .skills{
@@ -724,9 +732,9 @@ text-align:center;
 justify-content:center;
 }
 
-.profile{
+/* .profile{
 width:280px;
-}
+} */
 
 .experience-container{
 grid-template-columns:1fr;
