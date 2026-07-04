@@ -149,7 +149,7 @@ a{text-decoration:none;color:inherit}
     background:#22c55e;
 }
 
-.hero-tags{
+/* .hero-tags{
     display:flex;
     flex-wrap:wrap;
     gap:12px;
@@ -184,7 +184,20 @@ a{text-decoration:none;color:inherit}
 
     border-color:var(--primary);
 
+} */
+.hero-subtitle{
+    font-size:1.35rem;
+    font-weight:600;
+    color:var(--muted);
+    margin-bottom:22px;
 }
+
+.hero-subtitle span{
+    color:var(--primary);
+    margin:0 10px;
+    font-weight:700;
+}
+
 .hero-container{
     min-height:75vh;
     padding:60px 0;
