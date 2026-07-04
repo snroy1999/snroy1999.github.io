@@ -702,6 +702,21 @@ font-size:2.2rem;
     text-align:left;
 }
 
+.project-card{
+    position:relative;
+    overflow:hidden;
+}
+
+.project-card::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:5px;
+    background:var(--primary);
+}
+
 .tech-stack{
     color:var(--muted);
     font-size:.9rem;
