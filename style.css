@@ -74,7 +74,7 @@ a{text-decoration:none;color:inherit}
 }
 /* ---------------- HERO ---------------- */
 .hero{
-    min-height:92vh;
+    min-height:75vh;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -316,7 +316,7 @@ a{text-decoration:none;color:inherit}
 .skills{
     max-width:1700px;
     margin:0 auto;
-    padding:90px 40px;
+    padding:55px 40px;
 }
 
 .skills h2{
@@ -343,7 +343,7 @@ a{text-decoration:none;color:inherit}
 .about{
     max-width:1200px;
     margin:auto;
-    padding:90px 7% 50px;
+    padding:70px 7% 40px;
 }
 
 /* ---------- ABOUT LAYOUT ---------- */
@@ -545,7 +545,7 @@ font-size:2.2rem;
 .certifications,
 .experience,
 .contact{
-    padding:90px 7%;
+    padding:55px 7%;
     text-align:center;
 }
 
