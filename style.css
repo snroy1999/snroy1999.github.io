@@ -702,11 +702,11 @@ font-size:2.2rem;
     text-align:left;
 }
 
-.certificate-card{
+.cert-card{
     position: relative;
     overflow: hidden;
 }
-.certificate-card::after{
+.cert-card::after{
     content: "";
     position: absolute;
     top: 20px;
