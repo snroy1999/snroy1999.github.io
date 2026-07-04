@@ -707,14 +707,29 @@ font-size:2.2rem;
     overflow:hidden;
 }
 
+.project-card{
+    position:relative;
+    overflow:hidden;
+}
 .project-card::before{
     content:"";
     position:absolute;
     top:0;
     left:0;
-    width:100%;
-    height:5px;
+    width:65px;
+    height:6px;
     background:var(--primary);
+    border-radius:0 0 8px 0;
+}
+.project-card::after{
+    content:"";
+    position:absolute;
+    right:0;
+    bottom:0;
+    width:65px;
+    height:6px;
+    background:var(--primary);
+    border-radius:8px 0 0 0;
 }
 
 .tech-stack{
