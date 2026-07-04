@@ -702,6 +702,21 @@ font-size:2.2rem;
     text-align:left;
 }
 
+.certificate-card{
+    position: relative;
+    overflow: hidden;
+}
+.certificate-card::after{
+    content: "";
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    right: 0;
+    width: 6px;
+    background: var(--primary);
+    border-radius: 6px 0 0 6px;
+}
+
 .project-card{
     position:relative;
     overflow:hidden;
