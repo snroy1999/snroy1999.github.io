@@ -701,6 +701,28 @@ font-size:2.2rem;
 .experience-card{
     text-align:left;
 }
+.experience-card{
+    position: relative;
+    overflow: hidden;
+}
+.experience-card::before,
+.experience-card::after{
+    content: "";
+    position: absolute;
+    left: 24px;
+    right: 24px;
+    height: 5px;
+    background: var(--primary);
+    border-radius: 999px;
+}
+
+.experience-card::before{
+    top: 0;
+}
+
+.experience-card::after{
+    bottom: 0;
+}
 
 .cert-card{
     position: relative;
