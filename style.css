@@ -386,13 +386,13 @@ a{text-decoration:none;color:inherit}
 
 }
 .about-left h2{
-    font-family:'Cormorant Garamond',serif;
-    font-size:5.4rem;
+    font-family:'Cormorant Garamond', serif;
+    font-size:clamp(3.3rem,5vw,4.5rem);
     font-weight:600;
-    line-height:.95;
-    letter-spacing:-2px;
+    line-height:1.05;
+    letter-spacing:-1px;
     color:#111827;
-    max-width:650px;
+    max-width:620px;
 }
 .about-left h2 span{
     color:var(--primary);
