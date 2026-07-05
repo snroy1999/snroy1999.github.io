@@ -389,15 +389,21 @@ a{text-decoration:none;color:inherit}
     font-family:'Cormorant Garamond', serif;
     font-size:clamp(3.3rem,5vw,4.5rem);
     font-weight:600;
-    line-height:1.05;
+    line-height:1.08;
     letter-spacing:-1px;
     color:#111827;
-    max-width:620px;
+    max-width:720px;
 }
 .about-left h2 span{
     color:var(--primary);
     font-style:italic;
     font-weight:600;
+}
+.about-content{
+    display:grid;
+    grid-template-columns:1.15fr .85fr;
+    gap:80px;
+    align-items:start;
 }
 /* .about-left h2{
 
