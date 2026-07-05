@@ -73,6 +73,34 @@ a{text-decoration:none;color:inherit}
     background:var(--primary);
     color:#fff;
 }
+
+.logo{
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+     transition:.3s ease;
+}
+
+.logo-text{
+    font-size:2rem;
+    font-weight:800;
+    letter-spacing:-1px;
+    color:var(--text);
+    font-family:Inter, sans-serif;
+    transition:.3s;
+}
+
+.logo-dot{
+    color:var(--primary);
+    font-size:2rem;
+    font-weight:800;
+    margin-left:2px;
+}
+
+.logo:hover .logo-text{
+    color:var(--primary);
+    transform:translateY(-2px);
+}
 /* ---------------- HERO ---------------- */
 .hero{
     min-height:75vh;
