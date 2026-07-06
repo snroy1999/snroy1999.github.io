@@ -1009,4 +1009,23 @@ hero-subtitle{
 
 }
 
+.footer{
+    text-align:center;
+    padding:24px 20px;
+    background:#FFF2D8;
+    border-top:1px solid #F2D7A6;
+}
+
+.footer p{
+    margin:0;
+    font-size:1rem;
+    color:var(--text);
+    font-weight:500;
+}
+
+.footer-accent{
+    color:var(--primary);
+    font-weight:700;
+    padding:0 4px;
+}
 }
