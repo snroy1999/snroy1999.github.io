@@ -59,13 +59,18 @@ a{text-decoration:none;color:inherit}
     box-shadow: 0 3px 12px rgba(166,124,0,.08);
 }
 
+.nav-links{
+    display: flex;
+    gap: 28px;
+
+    margin: 0 auto;
+}
 .nav-links a{
     padding:10px 16px;
     border-radius:999px;
     font-weight:600;
     transition:.3s;
 }
-
 .nav-links a:hover,
 .nav-links a.active{
     background:var(--primary);
@@ -78,30 +83,21 @@ a{text-decoration:none;color:inherit}
     display: flex;
     align-items: center;
 }
-
-.logo-dot{
-    color: var(--primary);
-}
-
 .logo-text{
     font-size:2rem;
     font-weight:800;
     letter-spacing:-1px;
-    color:var(--text);
+    color:var(--primary);      /* Orange */
     font-family:Inter, sans-serif;
     transition:.3s;
 }
 
-.logo:hover .logo-text{
-    color:var(--primary);
-    transform:translateY(-2px);
+.logo-dot{
+    color:var(--text);         /* Black */
 }
 
-.nav-links{
-    display: flex;
-    gap: 28px;
-
-    margin: 0 auto;
+.logo:hover .logo-text{
+   transform:translateY(-2px);
 }
 /* ---------------- HERO ---------------- */
 .hero{
