@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background -->
+  <rect width="64" height="64" rx="12" fill="#FFF2D8"/>
+
+  <!-- SR -->
+  <text x="12"
+        y="43"
+        font-size="30"
+        font-family="Inter, Arial, sans-serif"
+        font-weight="800"
+        fill="#111827">
+    SR
+  </text>
+
+  <!-- Orange dot -->
+  <circle cx="52" cy="42" r="3.8" fill="#FF6A13"/>
+</svg>
