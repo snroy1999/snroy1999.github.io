@@ -813,6 +813,112 @@ hero-subtitle{
 }
 }
 
+/* ==============================
+   HERO SKILLS PREVIEW
+============================== */
+
+.skills-preview {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px 22px;
+
+    width: 100%;
+    max-width: 650px;
+    padding: 36px 30px;
+
+    background: rgba(255, 255, 255, 0.72);
+    border: 1px solid rgba(226, 226, 226, 0.8);
+    border-radius: 24px;
+
+    box-shadow: 0 12px 35px rgba(30, 35, 50, 0.04);
+}
+
+.skill-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    min-width: 0;
+}
+
+.skill-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    width: 36px;
+    height: 36px;
+
+    color: var(--primary);
+    background: rgba(255, 107, 0, 0.09);
+    border-radius: 10px;
+
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.skill-item h3 {
+    margin: 0 0 5px;
+    color: var(--text);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.skill-item p {
+    margin: 0;
+    color: var(--muted, #747b89);
+    font-size: 0.88rem;
+    line-height: 1.5;
+}
+
+/* Subtle hover effect */
+
+.skill-item {
+    transition: transform 0.25s ease;
+}
+
+.skill-item:hover {
+    transform: translateY(-3px);
+}
+
+.skill-item:hover .skill-icon {
+    background: var(--primary);
+    color: #fff;
+}
+
+/* ==============================
+   RESPONSIVE LAYOUT
+============================== */
+
+@media (max-width: 768px) {
+    .skills-preview {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 24px 16px;
+        padding: 28px 22px;
+    }
+
+    .skill-item {
+        gap: 10px;
+    }
+
+    .skill-item h3 {
+        font-size: 0.9rem;
+    }
+
+    .skill-item p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .skills-preview {
+        grid-template-columns: 1fr;
+        gap: 22px;
+        padding: 26px 22px;
+    }
+}
+
 .footer-accent{
     color:var(--primary);
     font-weight:700;
