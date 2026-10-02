@@ -979,6 +979,13 @@ hero-subtitle{
     }
 }
 
+/* Lucide icons inside the hero skill boxes */
+.skill-icon svg {
+    width: 23px;
+    height: 23px;
+    stroke-width: 2;
+}
+
 .footer-accent{
     color:var(--primary);
     font-weight:700;
