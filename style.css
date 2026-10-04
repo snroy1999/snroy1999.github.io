@@ -846,8 +846,8 @@ hero-subtitle{
     justify-content: center;
     flex-shrink: 0;
 
-    width: 36px;
-    height: 36px;
+    width: 44px;
+    height:44px;
 
     color: var(--primary);
     background: rgba(255, 107, 0, 0.09);
@@ -858,23 +858,23 @@ hero-subtitle{
 }
 
 .skill-item h3 {
-    margin: 0 0 5px;
+    margin: 0 0 4px;
     color: var(--text);
     font-size: 1rem;
     font-weight: 600;
-    line-height: 1.4;
+    line-height: 1.35;
 }
 
 .skill-item p {
     margin: 0;
-    color: var(--muted, #747b89);
+    color: var(--muted);
     font-size: 0.88rem;
     line-height: 1.5;
 }
 
 /* Subtle hover effect */
 
-.skill-item {
+/* .skill-item {
     transition: transform 0.25s ease;
 }
 
@@ -885,8 +885,13 @@ hero-subtitle{
 .skill-item:hover .skill-icon {
     background: var(--primary);
     color: #fff;
+} */
+.skill-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    min-width: 0;
 }
-
 /* ==============================
    RESPONSIVE LAYOUT
 ============================== */
